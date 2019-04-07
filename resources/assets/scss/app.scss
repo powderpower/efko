@@ -1,0 +1,52 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$bg-color: white;
+
+body
+{
+    min-width:390px;
+    background: $bg-color;
+}
+
+.img
+{
+    background: url('/icons/sprite.png');
+    background-repeat: no-repeat;
+}
+
+.top-line
+{
+    width:30px;
+    height:30px;    
+}
+
+.user-img
+{
+    width:190px;
+    height:190px;
+}
+
+.c-alone
+{
+    left:-6rem;
+    margin-left:50%;
+}
+
+.top-lock{background-position:-220px -220px;}
+.top-page{background-position:-270px -220px;}
+.us-M{background-position:-10px -10px;}
+.us-W{background-position:-220px -10px;}
+.us-main{background-position:-10px -220px;}
+.clickable{cursor: pointer}
+.op-eff{opacity:1; transition: opacity .3s}
+.op-null{opacity:0;}
+.btn-st{min-width:100px;}
+
+@media (max-width:500px)
+{
+    .sm-add-h th:nth-child(3)
+    {
+        display:none;
+    }
+    .sm-add-h .sm-hide{display:none !important}
+}
